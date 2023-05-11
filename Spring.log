@@ -1,0 +1,87 @@
+2023-05-12 00:15:29.062  INFO 33456 --- [main] c.travelagency.TravelAgencyApplication   : Starting TravelAgencyApplication using Java 17.0.6 on Sarawa with PID 33456 (F:\Sara\Downloads\backend\backend\target\classes started by Sarawa in F:\Sara\Downloads\backend\backend)
+2023-05-12 00:15:29.065  INFO 33456 --- [main] c.travelagency.TravelAgencyApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-05-12 00:15:29.379  INFO 33456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-12 00:15:29.412  INFO 33456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2023-05-12 00:15:29.680  INFO 33456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-12 00:15:29.686  INFO 33456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-12 00:15:29.686  INFO 33456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-05-12 00:15:29.747  INFO 33456 --- [main] o.a.c.c.C.[.[localhost].[/travelagency]  : Initializing Spring embedded WebApplicationContext
+2023-05-12 00:15:29.747  INFO 33456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 657 ms
+2023-05-12 00:15:29.840  INFO 33456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-12 00:15:30.033  INFO 33456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-12 00:15:30.059  INFO 33456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-12 00:15:30.086  INFO 33456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-12 00:15:30.185  INFO 33456 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-12 00:15:30.258  INFO 33456 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-12 00:15:30.596  INFO 33456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-12 00:15:30.602  INFO 33456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 00:15:30.866  WARN 33456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-12 00:15:31.041  INFO 33456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/travelagency'
+2023-05-12 00:15:31.046  INFO 33456 --- [main] c.travelagency.TravelAgencyApplication   : Started TravelAgencyApplication in 2.209 seconds (JVM running for 2.661)
+2023-05-12 00:16:21.438  INFO 33456 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/travelagency]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-12 00:16:21.438  INFO 33456 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-12 00:16:21.439  INFO 33456 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-05-12 00:18:14.464  INFO 33456 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-05-12 00:18:14.472  INFO 33456 --- [RMI TCP Connection(12)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-12 00:18:14.473  INFO 33456 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.c.C.[.[localhost].[/travelagency]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-12 00:18:14.478  INFO 33456 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 00:18:14.479  INFO 33456 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-12 00:18:14.484  INFO 33456 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-12 00:19:58.389  INFO 29348 --- [main] c.travelagency.TravelAgencyApplication   : Starting TravelAgencyApplication using Java 17.0.6 on Sarawa with PID 29348 (F:\Sara\Downloads\backend\backend\target\classes started by Sarawa in F:\Sara\Downloads\backend\backend)
+2023-05-12 00:19:58.391  INFO 29348 --- [main] c.travelagency.TravelAgencyApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-05-12 00:19:58.713  INFO 29348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-12 00:19:58.745  INFO 29348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2023-05-12 00:19:59.023  INFO 29348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-12 00:19:59.029  INFO 29348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-12 00:19:59.029  INFO 29348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-05-12 00:19:59.093  INFO 29348 --- [main] o.a.c.c.C.[.[localhost].[/travelagency]  : Initializing Spring embedded WebApplicationContext
+2023-05-12 00:19:59.093  INFO 29348 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 678 ms
+2023-05-12 00:19:59.178  INFO 29348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-12 00:19:59.367  INFO 29348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-12 00:19:59.394  INFO 29348 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-12 00:19:59.421  INFO 29348 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-12 00:19:59.520  INFO 29348 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-12 00:19:59.589  INFO 29348 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-12 00:19:59.937  INFO 29348 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-12 00:19:59.943  INFO 29348 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 00:20:00.209  WARN 29348 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-12 00:20:00.386  INFO 29348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/travelagency'
+2023-05-12 00:20:00.392  INFO 29348 --- [main] c.travelagency.TravelAgencyApplication   : Started TravelAgencyApplication in 2.224 seconds (JVM running for 2.648)
+2023-05-12 00:20:02.719  INFO 29348 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/travelagency]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-12 00:20:02.719  INFO 29348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-12 00:20:02.720  INFO 29348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-12 00:27:48.991  INFO 29348 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-05-12 00:27:48.999  INFO 29348 --- [RMI TCP Connection(17)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-12 00:27:49.000  INFO 29348 --- [RMI TCP Connection(17)-127.0.0.1] o.a.c.c.C.[.[localhost].[/travelagency]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-12 00:27:49.004  INFO 29348 --- [RMI TCP Connection(17)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 00:27:49.006  INFO 29348 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-12 00:27:49.009  INFO 29348 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-12 00:27:50.322  INFO 18852 --- [main] c.travelagency.TravelAgencyApplication   : Starting TravelAgencyApplication using Java 17.0.6 on Sarawa with PID 18852 (F:\Sara\Downloads\backend\backend\target\classes started by Sarawa in F:\Sara\Downloads\backend\backend)
+2023-05-12 00:27:50.324  INFO 18852 --- [main] c.travelagency.TravelAgencyApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-05-12 00:27:50.637  INFO 18852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-12 00:27:50.669  INFO 18852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2023-05-12 00:27:50.938  INFO 18852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-12 00:27:50.943  INFO 18852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-12 00:27:50.943  INFO 18852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-05-12 00:27:51.004  INFO 18852 --- [main] o.a.c.c.C.[.[localhost].[/travelagency]  : Initializing Spring embedded WebApplicationContext
+2023-05-12 00:27:51.004  INFO 18852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 656 ms
+2023-05-12 00:27:51.090  INFO 18852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-12 00:27:51.288  INFO 18852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-12 00:27:51.317  INFO 18852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-12 00:27:51.346  INFO 18852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-12 00:27:51.445  INFO 18852 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-12 00:27:51.517  INFO 18852 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-12 00:27:51.870  INFO 18852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-12 00:27:51.876  INFO 18852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 00:27:52.139  WARN 18852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-12 00:27:52.315  INFO 18852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/travelagency'
+2023-05-12 00:27:52.320  INFO 18852 --- [main] c.travelagency.TravelAgencyApplication   : Started TravelAgencyApplication in 2.22 seconds (JVM running for 2.627)
+2023-05-12 00:27:55.763  INFO 18852 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/travelagency]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-12 00:27:55.763  INFO 18852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-12 00:27:55.763  INFO 18852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-05-12 00:28:58.043  INFO 18852 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-05-12 00:28:58.050  INFO 18852 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-12 00:28:58.051  INFO 18852 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[.[localhost].[/travelagency]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-12 00:28:58.055  INFO 18852 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-12 00:28:58.056  INFO 18852 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-12 00:28:58.060  INFO 18852 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
